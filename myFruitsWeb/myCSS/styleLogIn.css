@@ -1,0 +1,182 @@
+*{
+background-color: ivory;
+}
+.main-div{
+	
+	font-family: sans-serif;;
+}
+h1{
+	border-style: solid;
+	border-style: 5px;
+	border-color: blanchedalmond;
+	text-align: center;
+	color: coral;
+	font-size: 50px;
+	background-color: yellowgreen;
+}
+.first-p{
+	font-family: sans-serif;
+}
+h2{
+	color: darkblue;
+}
+#ul-1{
+	font-size: 20px;
+}
+h3{
+	color: darkblue;
+}
+#ul-2{
+	font-size: 20px;
+}
+h4{
+	color: darkblue;
+	font-size: 20px;
+}
+#ul-3{
+	font-size: 20px;
+}
+h5{
+	font-size: 40px;
+	font-family: serif;
+	text-align: center;
+	color: darkorange;
+	background-color: skyblue;
+}
+.table-1{
+	text-align: center;
+	display: inline;
+	width: 500px;
+	border-spacing: 1.2em;
+}
+
+.table-2{
+	text-align: center;
+	display: inline;
+	width: 500px;
+	border-spacing: 1.2em;
+
+}
+#th1{
+font-size:25px;
+	text-decoration-line: underline;
+		color: darkcyan;	
+}
+#th2{
+	font-size: 24px;
+		text-decoration-line: underline;
+			color: darkcyan;
+}
+#th3{
+	font-size: 25px;
+		text-decoration-line: underline;
+			color: darkcyan;
+}
+.nav-1{
+	text-align: center;
+	border-width: 15px;
+	border-style: solid;
+	border-left-color: darkblue;
+	border-right-color: darkred ;
+	border-bottom-color: green;
+	border-top-color: orange;
+	font-family: sans-serif;
+}
+.image-1{
+	max-width: 50%;
+	height: 80px;
+	border-radius: 20px;
+	border-radius: 50%;
+	padding: 5px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.selection{
+	font-size: 20px;
+	position: absolute;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: bisque;
+	border-color:red ;
+	border-style:ridge;
+	border-width: 0.3em;
+	width: 13%;
+	height: 40px;
+	transform: translate(-50,-50);
+	top:153.5%;
+	left: 30%;
+	text-align: center;
+}
+.Button-1{
+	font-size: 19px;
+	border-style: solid;
+	border-width: 5px;
+	border-color: darkred;
+	width: 20%;
+	position: absolute;
+	left: 500px;
+}
+#buy-button{
+	font-size: 25px;
+	background-color:rgb(165, 136, 42);
+	width: 10%;
+	height: 33px;
+	margin-right: 50%;
+	outline: 3px solid red;
+	position: absolute;
+	top: 255%;
+	left: 45%;
+	transform: translate(-50,-50);
+}
+body{
+	margin: 0;
+	padding: 0;
+}
+#input-kilo{
+	position: absolute;
+	top: 897px;
+	left: 47%;
+	width: 7%;
+	height: 22px;
+}
+#kilo-num{
+	font-family: Arial, Helvetica, sans-serif;
+	position: absolute;
+	color: rgb(255, 0, 0);
+	text-decoration-line:underline;
+	top: 870px;
+	left: 47%;
+	font-size: 17.5px;
+}
+
+#total-price-button{
+	position: absolute;
+	top: 896px;
+	left:59%;
+	height: 30px;
+	font-size: 15px;
+}
+#move-to-payment{
+	position: absolute;
+	top:1978px;
+	left: 41%;
+	border-style: solid;
+	border-color: rgb(218, 39, 54);
+	border-width: 3px;
+	color:ghostwhite;
+	background-color: black;
+	font-size: 25px;
+}
+#fruit-department{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 30px;
+color: crimson;
+text-decoration: underline;
+position: relative;
+}
+#vegetables-department{
+font-family: Arial, Helvetica, sans-serif;	
+font-size: 30px;
+color: crimson;
+text-decoration: underline;
+position: relative;
+}

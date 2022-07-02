@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Shlomi's shop</title>
+	<link rel="stylesheet" type="text/css" href="myCSS\styleLogIn.css">
+</head>
+<body>
+	<div class="main-div">
+	<h1>welcome to Shlomi's market</h1>
+	<p class="first-p">
+		<h2>About us:</h2>
+		<ul id="ul-1">
+			<li>The company exists for more than 20 years. The first branch was opened in Tel-Aviv in 1998.</li> 
+			<br>
+			<li>We have hundreds of employees, tens of branches around the country.</li>
+		</ul>
+	</p>
+	<hr>
+	<p class="sceond-p">
+		<h3>Why choosing us?</h3>
+		<ul id="ul-2">
+			<li>
+				Our merchandise is the best, better than any other places.
+			</li>
+			<br>
+			<li>The prices designate for every pocket.</li><br>
+			<li>Free delivery</li><br>
+			<li>Full refund</li>
+		</ul>
+	</p>
+	<hr>
+	<p class="third-p">
+		<h4>Contact us:</h4>
+		<ul id="ul-3">
+			<li><a href="https://www.facebook.com/">Facebbok</a></li>
+			<br>
+			<li><a href="https://www.instagram.com/">Instagram</a></li><br>
+			<li><a href="https://web.telegram.org/z/">Telegram</a></li><br>
+			<li>+972-54-674-385-944</li>
+			<hr>
+	</ul>		
+	</p>
+	<h5>Our products:</h5>
+	</div>
+	<nav class="nav-1">
+		<img class="image-1" src="images/heartFruit.jpg" alt="Apples">
+		<header id="fruit-department">Fruits department</header>
+		<table class="table-2">
+			<th id="th1">Genus</th>
+			<th id="th2">Price(per kg)</th>
+				<tr>
+				<td>Apple</td>
+				<td>3.90$</td>
+			</tr>
+				<tr>
+				<td>Peach</td>
+				<td>4.50$</td>
+			</tr>
+				<tr>
+				<td>Banana</td>
+				<td>3.90$</td>
+			</tr>
+			<tr>
+				<td>Grapes</td>
+				<td>7.10$</td>
+			</tr>
+			<tr>
+				<td>Pineapple</td>
+				<td>11.40$</td>
+			</tr>
+			<tr>
+				<td>Kiwi</td>
+				<td>4.40$</td>
+			</tr>
+			<tr>
+				<td>Cherry</td>
+				<td>9.50$</td>
+			</tr>
+			<tr>
+				<td>Melon</td>
+				<td>2.80$</td>
+			</tr>
+			<tr>
+				<td>Watermelon</td>
+				<td>2.90$</td>
+			</tr>
+		</table>
+		<table class="table-1">
+			<header id="vegetables-department">Vegetables department</header>
+				<th id="th1">Genus</th>
+				<th id="th2">Price(per kg)</th>
+					<tr>
+					<td>Potato</td>
+					<td>3.90$</td>
+				</tr>
+					<tr>
+					<td>Tomato</td>
+					<td>1.50$</td>
+				</tr>
+					<tr>
+					<td>Carrot</td>
+					<td>3.70$</td>
+				</tr>
+				<tr>
+					<td>Brocoli</td>
+					<td>5.10$</td>
+				</tr>
+				<tr>
+					<td>Mashrum</td>
+					<td>7.40$</td>
+				</tr>
+				<tr>
+					<td>Cocumber</td>
+					<td>1.40$</td>
+				</tr>
+				<tr>
+					<td>Pumpkin</td>
+					<td>6.50$</td>
+				</tr>
+				<tr>
+					<td>Garlic</td>
+					<td>7.90$</td>
+				</tr>
+				<tr>
+					<td>Onion</td>
+					<td>8.80$</td>
+				</tr>
+			</table>
+			</nav>
+			<div class="main-div-selection">
+				<select class="selection">
+				<option id="apple">Apple</option>
+				<option id="Tomatos">Peach</option>
+				<option id="Carrot">Banana</option>
+				<option id="Grapes">Grapes</option>
+				<option id="Pineapples">Pineapple</option>
+				<option id="Cocumber">Kiwi</option>
+				<option id="Mango">Melon</option>
+				<option id="Garlic">Watermelon</option>
+				<option id="Onions">Potato</option>
+				<option id="apple">Tomato</option>
+				<option id="Tomatos">Brocoli</option>
+				<option id="Carrot">Carrot</option>
+				<option id="Grapes">Mashrum</option>
+				<option id="Pineapples">Cocumber</option>
+				<option id="Cocumber">Pumpkin</option>
+				<option id="Mango">Mango</option>
+				<option id="Garlic">Garlic</option>
+				<option id="Onions">Onion</option>
+			</select>
+			<a id="move-to-payment" href="payment.html">Move to payment</a>
+			</div>
+			<br>
+			<div>
+				<label id="kilo-num"><strong>kilo amount:</strong></label>
+					<input id="input-kilo" placeholder="Kilo amount" type="number">
+			</div>
+			<div>
+				<button id="total-price-button" onclick="kiloAmount()">Check total price</button>
+			</div>
+			<script src="script.js"></script>
+</body>
+</html>

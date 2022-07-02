@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Regisration station</title>
+	<link rel="stylesheet" type="text/css" href="myCSS\styleSignIn.css">
+</head>
+<body class="main-div">
+	<div>
+		<h1 class="main-header"><strong><cite>Thank you for joining us!</cite></strong></h1>
+		<p class="first-p">
+			To register our web and then make orders, we need some details about you, to allow your regisration.
+		</p>
+		<p class="second-p">By complete the details, press <strong>"Register"</strong> and you will return to the main website. Then complete the details and press <strong>"Log in"</strong>.</p>
+		<form class="main-form">
+			<label id="first-label">First name</label>
+			<input id="firstName" type="text" name="first name"placeholder="First name">
+			<br>
+			<label id="second-label">Last name</label>
+			<input id="lastName" type="text" name="last name"placeholder="Last name">
+			<br>	
+			<label id="third-label">Age</label>
+			<input id="Age" type="number" name="age" placeholder="Age">
+			<br>
+			<label id="fourth-label">Location</label>
+			<input id="Location" type="text" name="location" placeholder="Location">
+			<br>
+			<label id="fifth-label">Email</label>
+			<input id="RegEmail" type="text" name="email" placeholder="Email">
+			<br>
+			<label id="sixth-label">Password</label>
+			<input id="RegPassword" type="password" name="Password" placeholder="Password">
+			<br>
+			<button disabled id="RegButton" type="button" onclick="alertRegFunc()">Register				
+			</button>
+			</form>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
